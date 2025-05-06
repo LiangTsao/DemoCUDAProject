@@ -30,6 +30,15 @@ include_directories("${CUDA_PATH}/include")
 include_directories(Common)
 link_directories("${CUDA_PATH}/lib/x64") # 根据实际情况修改库文件路径
 
+
+# 设置Windows SDK路径  
+#    系统 INCLUDE LIB 环境变量
+# include_directories(C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt)
+# include_directories(C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um)
+# include_directories(C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared)
+# link_directories("C:/Program Files (x86)/Windows Kits/10/Lib/10.0.22621.0/ucrt/x64")
+# link_directories("C:/Program Files (x86)/Windows Kits/10/Lib/10.0.22621.0/um/x64")
+
 # 设置项目支持CUDA语言
 #enable_language(CUDA)
 

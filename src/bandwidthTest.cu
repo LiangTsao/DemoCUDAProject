@@ -145,6 +145,7 @@ int main(int argc, char** argv) {
     }
 
     // finish
+    printf("============= Cao Liang ================================================\n");
     printf("%s\n", (iRetVal == 0) ? "Result = PASS" : "Result = FAIL");
 
     printf(
