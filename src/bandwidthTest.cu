@@ -1,4 +1,4 @@
-﻿// CMakeProject.cpp: 定义应用程序的入口点。
+// CMakeProject.cpp: 定义应用程序的入口点。
 //
 
 /* Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
