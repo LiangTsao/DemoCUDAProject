@@ -35,7 +35,7 @@ link_directories("${CUDA_PATH}/lib/x64") # 根据实际情况修改库文件路�
 
 # Source file
 # Add target for bandwidthTest
-add_executable(bandwidthTest bandwidthTest.cu)
+add_executable(bandwidthTest src/bandwidthTest.cu)
 
 target_compile_options(bandwidthTest PRIVATE $<$<COMPILE_LANGUAGE:CUDA>:--extended-lambda>)
 
